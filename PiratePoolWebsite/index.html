@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" type="image/png" href="/static//images/ARRRCoinBig.png"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.5/d3.min.js"></script>
+    <script src="/static/nvd3.js"></script>
+    <link rel="stylesheet" href="/static/nvd3.css">
+
+    <script src="/static/main.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>Pirate Pool</title>
+</head>
+
+<body>
+
+<header>
+<style>
+    @media screen and (max-width: 800px) {
+     /* phone size */
+     header > .headercontainer > a {
+        width: 100%;
+        margin: 0px;
+    }
+
+    header > .headercontainer > a > .button {
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+
+    }
+}
+</style>
+
+
+<div class="title">
+    <img src="/static/images/ARRRCoinBig.png" style="width:45px; height: 45px; padding-right: 20px">
+    <a href="/">PIRATE POOL.IO</a>
+    <img src="/static/images/ARRRCoinBig.png" style="width:45px; height: 45px; padding-left: 20px">
+</div>
+
+
+<div class="headercontainer">
+    <a href="/getting_started"><button class="button">
+            GETTING STARTED
+    </button></a>
+
+    <a href="/stats"><button class="button">
+            POOL STATS
+    </button></a>
+    
+    <a href="/workers"><button class="button">
+            WORKER STATS
+    </button></a>
+
+    <a href="/payments"><button class="button">
+           PAYMENTS
+    </button></a>
+
+    <a href="/api"><button class="button">
+            API
+    </button></a>
+</div>
+
+</header>
+
+<main>
+    {{=it.page}}
+</main>
+
+<footer>
+    No warranties matey! If ye be 'aving any troubles, invoke yer right to parlay at <a href="https://discord.gg/NWn2whS" target="_blank">#pirate</a>
+    <br>
+    &middot; Based on <a href="https://github.com/webworker01/knomp" target="_blank">knomp</a>
+    <br>
+    Styled By @NutellaLicka
+</footer>
+</body>
+</html>
