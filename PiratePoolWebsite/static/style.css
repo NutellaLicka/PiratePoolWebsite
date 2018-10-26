@@ -507,7 +507,6 @@ table {
     font-family: var(--font2);
     text-align: center;
     width: 100%;
-    table-layout: fixed;
 }
 
 .pendpaidHeader {
